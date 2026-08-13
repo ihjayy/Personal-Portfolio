@@ -38,9 +38,9 @@ export function ContactPage() {
           {/* Info sidebar */}
           <div className="lg:col-span-2 space-y-4">
             {[
-              { Icon: Mail, label: "Email", value: "ejsupremo2004@gmail.com", color: "#00d4ff" },
-              { Icon: Phone, label: "Phone", value: "+63 9602090484", color: "#8b5cf6" },
-              { Icon: MapPin, label: "Location", value: "Rizal, Philippines", color: "#10b981" },
+              { Icon: Mail, label: "Email", value: "ejsupremo2004@gmail.com", color: "#ffffff" },
+              { Icon: Phone, label: "Phone", value: "+63 9602090484", color: "#ffffff" },
+              { Icon: MapPin, label: "Location", value: "Rizal, Philippines", color: "#ffffff" },
             ].map(({ Icon, label, value, color }) => (
               <div
                 key={label}
@@ -116,7 +116,7 @@ export function ContactPage() {
                   <input
                     type="text"
                     required
-                    placeholder="John Smith"
+                    placeholder="Enter Name"
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
                     className={inputClass}
@@ -128,7 +128,7 @@ export function ContactPage() {
                   <input
                     type="email"
                     required
-                    placeholder="john@example.com"
+                    placeholder="Enter Email"
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
                     className={inputClass}
@@ -165,7 +165,7 @@ export function ContactPage() {
 
               <button
                 type="submit"
-                className="group w-full flex items-center justify-center gap-3 py-3.5 rounded-xl font-semibold text-white text-sm transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] shadow-xl shadow-cyan-500/15"
+                className="cursor-pointer roup w-full flex items-center justify-center gap-3 py-3.5 rounded-xl font-semibold text-white text-sm transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] shadow-xl shadow-cyan-500/15"
                 style={{ background: "linear-gradient(135deg, #38BDF8, #38BDF8)" }}
               >
                 {sent ? (

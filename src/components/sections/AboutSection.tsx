@@ -134,13 +134,13 @@ export function AboutSection() {
                   <div
                     className="w-10 h-10 rounded-xl flex items-center justify-center border"
                     style={{
-                      background: "linear-gradient(135deg, rgba(0,212,255,0.12), rgba(139,92,246,0.12))",
+                      background: "rgba(255,255,255,0.03)",
                       borderColor: "rgba(255,255,255,0.1)",
                     }}
                   >
-                    {group.icon === "code" && <Code2 size={17} className="text-cyan-400" />}
-                    {group.icon === "palette" && <Palette size={17} className="text-violet-400" />}
-                    {group.icon === "terminal" && <Terminal size={17} className="text-cyan-400" />}
+                    {group.icon === "code" && <Code2 size={17} className="text-white-400" />}
+                    {group.icon === "palette" && <Palette size={17} className="text-white-400" />}
+                    {group.icon === "terminal" && <Terminal size={17} className="text-white-400" />}
                   </div>
                   <h3 className="font-display font-semibold text-white text-sm leading-snug">{group.category}</h3>
                 </div>

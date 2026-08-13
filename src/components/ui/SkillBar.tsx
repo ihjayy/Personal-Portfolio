@@ -25,7 +25,7 @@ export function SkillBar({ name, level, delay }: { name: string; level: number; 
           style={{
             width: filled ? `${level}%` : "0%",
             transitionDelay: `${delay}ms`,
-            background: "linear-gradient(90deg, #00d4ff, #8b5cf6)",
+            background: "rgba(255,255,255,255)",
           }}
         />
       </div>

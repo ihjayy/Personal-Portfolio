@@ -67,15 +67,7 @@ export function ProjectsPage() {
                   (e.currentTarget as HTMLDivElement).style.borderColor = "rgba(255,255,255,0.09)";
                 }}
               >
-                <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl flex-shrink-0"
-                  style={{
-                    background: `${cert.color}1a`,
-                    border: `1px solid ${cert.color}38`,
-                  }}
-                >
-                  {cert.icon}
-                </div>
+
                 <div className="flex-1 min-w-0">
                   <div className="font-semibold text-white text-sm mb-1 group-hover:text-cyan-300 transition-colors leading-snug">
                     {cert.title}

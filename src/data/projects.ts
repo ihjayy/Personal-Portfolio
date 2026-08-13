@@ -20,6 +20,17 @@ export const PROJECTS = [
     image: "./proj/js-simple-bg.png",
     color: "#f7df1e",
     featured: true,
+  },
+
+  {
+    id: 3,
+    title: "Water Quality Monitoring System",
+    category: "Web Development",
+    role: "Frontend Developer",
+    tech: ["/techstack/html.svg", "/techstack/css.svg", "/techstack/javascript.svg", "/techstack/python.svg"],
+    image: "./proj/water-quality-bg.png",
+    color: "#f7df1e",
+    featured: true,
   }
 ];
 
