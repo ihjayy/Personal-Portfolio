@@ -86,8 +86,6 @@ export function Nav() {
           </Link>
         </motion.div>
       )}
-
-      {/* Mobile menu toggle — add your icon/button here, wired to setMenuOpen */}
     </nav>
   );
 }
