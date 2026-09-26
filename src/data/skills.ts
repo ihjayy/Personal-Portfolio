@@ -29,6 +29,8 @@ export const SKILLS = [
     items: [
       { name: "Git / GitHub", level: 90 },
       { name: "Notion", level: 85 },
+      { name: "Terminal", level: 80},
+      { name: "VS Code", level: 85 },
     ],
   },
 ];
